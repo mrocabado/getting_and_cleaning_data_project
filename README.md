@@ -16,4 +16,4 @@ The support function **assemble** located in **assemble_data.R** does this:
 3. Horizontally joins subject, activity and feature measurement (all these have the number of rows)
 4. Use features.txt to properly name every column in resulting data.frame
 
-The code expects **UCI HAR Dataset** folder to be present in the same folder as this file.
+The code expects **UCI HAR Dataset** folder to be present in the same folder as this file. Then, sourcing run_analysis.R and then executing run_analysis() function should create **wearable_computing_tidy.txt** file.
