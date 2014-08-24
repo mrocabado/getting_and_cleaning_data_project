@@ -5,9 +5,9 @@ The entry point of this project is the function defined in **run_analysis.R** Su
 
 The main tasks executed in **run_analysis.R** function are:
 
-1. Assemble and join both "train" and "test" datasets that includes returns with columns for subject, activity code, activity name and all the variables described in features.txt/feature_info.txt 
-2. Remove all features columns except those having "mean()" and "std()" in their names. This data.frames is stored in "complete" variable in code.
-3. Finally, aggregates all feature columns (with mean function) grouping by subject and activity name.
+1. Assemble and join both "train" and "test" datasets. The resultinf data.frame includes columns for subject, activity code, activity name and all the variables described in features.txt/feature_info.txt 
+2. Remove all features columns except those having "mean()" and "std()" in their names. This data.frame is stored in "complete" variable (see code).
+3. Finally, aggregates all feature columns (with mean function) grouping by subject and activity name and save to disk.
 
 The support function **assemble** located in **assemble_data.R** does this:
 
